@@ -43,10 +43,10 @@ sudo apt install eyewitness
 wget "https://raw.githubusercontent.com/BrunoThums/Re_con/main/re_con.sh"
 
 # Make the script executable
-chmod +x "re_con.sh"
+chmod +x re_con.sh
 
 # Move the script to /usr/local/bin
-mv recon.sh /usr/bin/re_con
+mv re_con.sh /usr/bin/re_con
 echo -e "\033[36m Done! \033[0m"
 
 rm setup.sh
