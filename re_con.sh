@@ -1,5 +1,9 @@
 #!/bin/bash	
 url=$1
+if [ ! "$url" ];then
+	echo "Use:"
+	echo "$0 {url}"
+fi
 if [ ! -d "$url" ];then
 	mkdir $url
 fi
